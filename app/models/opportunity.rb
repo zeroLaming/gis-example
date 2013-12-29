@@ -9,6 +9,10 @@ class Opportunity
   field :description, type: String
   field :removed_at, type: DateTime, default: nil
   
+  # I've added a company field in here to help flesh out the example API.
+  # In reality this would be another collection which would have_many opportunities.
+  field :company, type: String
+  
   validates :title, presence: true
   validates :summary, presence: true
   
