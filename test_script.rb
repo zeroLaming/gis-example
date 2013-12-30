@@ -2,7 +2,8 @@ require 'net/http'
 require 'net/http/post/multipart'
 require 'json'
 
-BASE_URL = "http://127.0.0.1:3000/api/v1"
+#BASE_URL = 'http://127.0.0.1:3000/api/v1'
+BASE_URL = 'http://gis-example.herokuapp.com/api/v1'
 
 # Utility methods to GET/POST/PUT/DELETE to the server
 def get_from_server(url)
