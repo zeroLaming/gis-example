@@ -1,0 +1,5 @@
+Starting the Vagrant Box:
+
+ - vagrant up
+ - vagrant ssh
+ - cd /vagrant && bundle install && rake db:seed && rails s

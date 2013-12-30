@@ -11,6 +11,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'state_machine'
+gem 'kaminari'
 
 group :test do
   gem 'rspec-rails'

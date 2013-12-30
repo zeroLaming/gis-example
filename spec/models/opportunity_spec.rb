@@ -1,7 +1,7 @@
 require "spec_helper"
 
 describe Opportunity do
-  it { should have_fields(:title, :summary, :description, :state, :removed_at) }
+  it { should have_fields(:title, :summary, :description, :state) }
   it { should have_many(:applications).of_type(Application) }
   it { should validate_presence_of(:title) }
   it { should validate_presence_of(:summary) }
