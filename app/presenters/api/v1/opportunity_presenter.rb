@@ -13,7 +13,7 @@ module Api
       def as_link
         {
           id: @opportunity.id.to_s,
-          url: ::UrlGenerator.new.api_v1_opportunity_url(@opportunity)
+          url: UrlGenerator.new.api_v1_opportunity_url(@opportunity)
         }
       end
     end

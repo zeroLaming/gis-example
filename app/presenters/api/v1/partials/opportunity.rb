@@ -13,7 +13,7 @@ module Api
             title: @opportunity.title,
             summary: @opportunity.summary,
             description: @opportunity.description,
-            url: ::UrlGenerator.new.api_v1_opportunity_url(@opportunity),
+            url: UrlGenerator.new.api_v1_opportunity_url(@opportunity),
             company: {
               name: @opportunity.company
             }

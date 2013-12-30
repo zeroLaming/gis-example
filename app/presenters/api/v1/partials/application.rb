@@ -11,7 +11,7 @@ module Api
           {
             id: @application.id.to_s,
             status: @application.state,
-            url: ::UrlGenerator.new.api_v1_opportunity_application_url(@application.opportunity, @application),
+            url: UrlGenerator.new.api_v1_opportunity_application_url(@application.opportunity, @application),
             opportunity: {
               id: @application.opportunity.id.to_s,
               title: @application.opportunity.title
