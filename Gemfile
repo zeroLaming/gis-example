@@ -1,3 +1,4 @@
+ruby '1.9.3'
 source 'https://rubygems.org'
 
 gem 'rails', '4.0.2'
@@ -12,6 +13,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'state_machine'
 gem 'kaminari'
+gem 'faker'
 
 group :test do
   gem 'rspec-rails'
@@ -19,7 +21,6 @@ group :test do
   gem 'database_cleaner'
   gem 'mongoid-rspec'
   gem 'factory_girl_rails'
-  gem 'faker'
   gem 'shoulda-matchers'
 end
 
