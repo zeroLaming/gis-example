@@ -15,6 +15,10 @@ gem 'state_machine'
 gem 'kaminari'
 gem 'faker'
 
+group :production do
+  gem 'rails_12factor'
+end
+
 group :test do
   gem 'rspec-rails'
   gem 'capybara'
