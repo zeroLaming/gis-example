@@ -3,3 +3,9 @@ Starting the Vagrant Box:
  - vagrant up
  - vagrant ssh
  - cd /vagrant && bundle install && rake db:seed && rails s
+ - localhost:3000
+ 
+Testing:
+
+ - rspec
+ - ruby test_script.rb
